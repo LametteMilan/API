@@ -1,0 +1,28 @@
+{
+  "name": "s12-okanban-api",
+  "version": "1.0.0",
+  "description": "[Rappel : lien pour créer des issues](https://github.com/O-clock-samoussas/Soutien-ateliers/issues)",
+  "main": "src/index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file=.env src/index.js",
+    "db:sync": "node --env-file=.env src/migrations/01.create-tables.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "sequelize": "^6.37.6",
+    "zod": "^3.24.2"
+  }
+}

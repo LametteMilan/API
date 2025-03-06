@@ -1,0 +1,25 @@
+{
+  "width": 586,
+  "height": 120,
+  "cx": [
+    [ "ROBOT", 71 ],
+    [ "MAINTIENT", 207 ],
+    [ "ATELIER", 312 ],
+    [ "APPARTIENT", 421 ],
+    [ "OUTIL", 538 ]
+  ],
+  "cy": [
+    [ "ROBOT", 60 ],
+    [ "MAINTIENT", 60 ],
+    [ "ATELIER", 60 ],
+    [ "APPARTIENT", 60 ],
+    [ "OUTIL", 60 ]
+  ],
+  "shift": [
+    [ "MAINTIENT,ROBOT,0", 0 ],
+    [ "MAINTIENT,ATELIER,0", 0 ],
+    [ "APPARTIENT,ATELIER,0", 0 ],
+    [ "APPARTIENT,OUTIL,0", 0 ]
+  ],
+  "ratio": []
+}

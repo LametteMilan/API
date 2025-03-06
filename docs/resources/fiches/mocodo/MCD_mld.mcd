@@ -1,0 +1,10 @@
+%%mocodo
+:
+ROBOT: référence, nom d'usage, date de fabrication
+:
+MAINTIENT: #référence > ROBOT > référence, _#nom > ATELIER > nom
+:
+ATELIER: nom, section, couleur
+:
+OUTIL: code outil, description, gtin-13, prix, #nom > ATELIER > nom
+:

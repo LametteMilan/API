@@ -1,0 +1,5 @@
+ROBOT: référence, nom d'usage, date de fabrication
+MAINTIENT, 0N ROBOT, 0N ATELIER
+ATELIER: nom, section, couleur
+APPARTIENT, 0N ATELIER, 11 OUTIL
+OUTIL: code outil, description, gtin-13, prix
