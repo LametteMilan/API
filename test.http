@@ -1,7 +1,7 @@
 ### test de page 404
 GET http://localhost:3000/dsfsdfsdf
 
-### Création de liste (il faut penser a sauter une ligne aoprès le header (Content-Type: application/json)
+### Création de liste il faut penser a sauter une ligne aoprès le header (Content-Type: application/json)
 POST http://localhost:3000/lists
 Content-Type: application/json
 
